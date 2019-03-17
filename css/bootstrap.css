@@ -195,6 +195,17 @@ th {
 	width: 600px;
 	height: 300px;
 }
+.col-lg-12 .jumbotron #mahaba {
+	border-radius: 10px 10px 10px 10px;
+}
+.navbar-header .navbar-brand #rogo {
+	width: 52px;
+	height: wrap_content;
+	border-radius: 0px 0px 16px;
+	background-color: #fff;
+}
+
+
 
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -4282,11 +4293,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+	float: left;
+	height: 50px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	font-size: 18px;
+	line-height: 20px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
